@@ -1,0 +1,27 @@
+* {
+   background-color: #fff7d1;
+
+}
+
+#my-jumbotron{
+    margin-top: 2em;
+}
+
+#form-singup{
+    margin-top: 2em;
+}
+
+#error-username-required{
+    color:red;
+    display: none;
+}
+
+#error-password-required{
+    color:red;
+    display: none;
+}
+
+#error-password-confirm-required{
+    color:red;
+    display: none;
+}

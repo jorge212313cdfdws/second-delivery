@@ -5,16 +5,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ja Morant</title>
-  <link rel="stylesheet" href="css/css.css">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
   <!--Encabezado y Navegación-->
   <header>
-    <div class="container">
-      <div class="item"><a href="#zapatillas">zapatillas</a></div>
-      <!-- <div class="item"><a href="equio.html">Equipo</a></div> -->
-      <div class="item"><a href="Pre_temporada.html">Pre_temorada</a></div>
+    <div class="container" id="header">
+      <!-- <div class="item"><a href="#zapatillas">zapatillas</a></div> -->
+      <div class="item"><a href="cuestionario.html">cuestionario</a></div>
+      <div class="item"><a href="Equipo.html">Equipo</a></div>
       <div class="item"><a href="Zapatillas.html">Zapatillas</a></div>
       <div class="item"><a href="index.html/Historia">Historia</a></div>
     </div>
@@ -28,31 +41,39 @@
       se trataran temas como su equipo sus modelos de zapatillas y muchas más cosas... </p>
   </div>
 
-
-  <div class="body-container">
-    <div class="culmn">
+  <!-- galeria de imagenes 1 -->
+  <div class="container-with-images">
+    <div class="column-with-image">
+      <div>
+        <img src="img/inagen1.jpg" alt="imagen1">
+      </div>
       <div class="body-item">01</div>
-      <img src="img/inagen1.jpg" alt="imagen1">
     </div>
-    <div class="culmn">
-      <div class="body-item">02</div>
-      <img src="img/imagen2.jpg" alt="imagen2">
+    <div class="column-with-image">
+      <div>
+        <img src="img/imagen2.jpg" alt="imagen2">
+      </div>
+      <div class="body-item"><p>02</p></div>
     </div>
-    <div class="culmn">
+    <div class="column-with-image">
+      <div>
+        <img src="img/imagen3.jpg" alt="imagen3">
+      </div>
       <div class="body-item">03</div>
-      <img src="img/imagen3.jpg" alt="imagen3">
     </div>
-    <div class="culmn">
+    <div class="column-with-image">
+      <div>
+        <img src="img/imagen4.jpg" alt="imagen4">
+      </div>
       <div class="body-item">04</div>
-      <img src="img/imagen4.jpg" alt="imagen4">
     </div>
   </div>
 
   <div>
     <p>Aquí podemos ver algunos de los modelos y colores de zapatillas que tiene este jugador "Ja Morant" </p>
   </div>
-
-  <div class="row", id="zapatillas">
+  <!-- galeria de imagenes 2 -->
+  <div class="row" id="zapatillas">
     <div class="img-column">
       <img src="img/zapatillas1.jpg" alt="zapatillas1">
       <img src="img/zapatillas2.jpg" alt="zapatillas2">
@@ -76,7 +97,7 @@
   <footer class="foot">
     <div class="foot-1">
       <h2>Jorge de la Parra Donaire</h2>
-    </div> 
+    </div>
   </footer>
 </body>
 

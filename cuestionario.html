@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- My own styles -->
+    <link rel="stylesheet" href="css/cuestionario.css">
+
+    <!-- My own scripts -->
+    <script src="js/form_validation.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form action="form_response.html" id="form-singup" method="POST">
+
+            <div class="form-group">
+                <label for="username">Nombre de usuario</label>
+                <input type="text" id="username" name="username" class="form-control" />
+                <span id="error-username-required" style="color: red; display: none;">* error: nombre de usuario obligatorio</span>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" class="form-control" />
+                <span id="error-password-required" style="color: red; display: none;">* error: contraseña obligatoria</span>
+            </div>
+
+            <div class="form-group">
+                <label for="password-confirm">Confirmación de Contraseña</label>
+                <input type="password" id="password-confirm" name="password-confirm" class="form-control" />
+                <span id="error-password-confirm-required" style="color: red; display: none;">* error: confirme las contraseñas</span>
+                <span id="error-password-match-required" style="color: red; display: none;">* error: las contraseñas no coinciden</span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+</body>
+
+</html>
